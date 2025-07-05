@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Soilnest - Multi Grains</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #FFE9D6;
+      color: #1C1C1C;
+    }
+    header {
+      padding: 20px;
+      text-align: center;
+      font-size: 28px;
+      font-weight: 600;
+    }
+    .product-section {
+      max-width: 700px;
+      margin: 40px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    .product-section h2 {
+      font-size: 24px;
+      margin-bottom: 16px;
+    }
+    .product-section p {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    .buy-button {
+      margin-top: 20px;
+      padding: 12px 20px;
+      background-color: #1C1C1C;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .buy-button:hover {
+      background-color: #FFE9D6;
+      color: #1C1C1C;
+      border: 1px solid #1C1C1C;
+    }
+    .buy-icon {
+      width: 20px;
+      height: 20px;
+      fill: currentColor;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #1C1C1C;
+      background: #fff6ef;
+    }
+  </style>
+</head>
+<body>
+  <header>Soilnest</header>
+  <section class="product-section">
+    <h2>Soilnest Multi Grains – 250g</h2>
+    <p>A finely ground powder made from nutrient-rich seeds like pumpkin, sunflower, flax, and more. Naturally harvested and processed for clean energy and daily nourishment.</p>
+    <p><strong>Price: ₹299</strong></p>
+    <a href="https://wa.me/91XXXXXXXXXX?text=Hi, I'm interested in ordering the 250g Multi-Seed Powder from Soilnest."
+       class="buy-button">
+      <svg class="buy-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path d="M7 4V2h10v2h5v2h-1l-3.6 9.59L18 17a2 2 0 01-1.85 1.995L16 19H8a2 2 0 01-1.995-1.85L6 17l1.6-1.41L4 6H3V4h4zm2 13h6a1 1 0 00.993-.883L16 16a1 1 0 00-.883-.993L15 15H9a1 1 0 00-.993.883L8 16a1 1 0 00.883.993L9 17z"/>
+      </svg>
+      Buy Now
+    </a>
+  </section>
+  <footer>© 2025 Soilnest. All rights reserved.</footer>
+</body>
+</html>
